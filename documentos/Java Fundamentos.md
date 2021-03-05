@@ -115,6 +115,14 @@ while(expresion){
 }
 ```
 
+### Ciclo For
+
+```java
+for(inicializacion;expresion booleana; incremento){
+//sentencia
+}
+```
+
 
 
 ### Notas:
