@@ -123,6 +123,14 @@ for(inicializacion;expresion booleana; incremento){
 }
 ```
 
+### Ciclo Foreach
+
+```java
+for(variable_temporal : array){
+//sentencia
+}
+```
+
 
 
 ### Notas:
