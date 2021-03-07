@@ -131,6 +131,20 @@ for(variable_temporal : array){
 }
 ```
 
+### Arreglos
+
+1. Tamaño fijo
+
+2. Solo puede contener elementos de un mismo tipo
+
+Puede almacenar tipo de datos primitivos o referencias Objetos.
+
+#### Conceptos base
+
+* posicion / indice
+
+* Los indices comienzan con cero
+
 
 
 ### Notas:
