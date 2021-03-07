@@ -4,6 +4,24 @@ public class Persona {
     private float peso;
     private float estatura;
 
+    //Constructor
+    public Persona(){
+        //Sirve para inicilizar los valores de un objeto instanciado
+        this.nombre = "";
+        this.edad = 0;
+        this.peso = 0f;
+        this.estatura = 0f;
+    }
+    //Segundo constructor
+    //sobrecarga: escribir un metodo con el mismo nombre
+    //pero con diferente firma
+    public Persona(String nombre, int edad, float peso, float estatura){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.peso = peso;
+        this.estatura = estatura;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -13,11 +31,18 @@ public class Persona {
     }
 
     public int getEdad() {
+
         return edad;
     }
 
     public void setEdad(int edad) {
-        this.edad = edad;
+
+        if (edad < 0 || edad > 150){
+            System.out.println("La edad no es valida");
+        }
+        else{
+            this.edad = edad;
+        }
     }
 
     public float getPeso() {

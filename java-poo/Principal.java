@@ -8,7 +8,7 @@ public class Principal {
         persona.estatura = 1.70f;
         */
         persona.setNombre("Alex Mendoza");
-        persona.setEdad(26);
+        persona.setEdad(-14);
         persona.setEstatura(70f);
         persona.setPeso(1.70f);
         /*
@@ -21,5 +21,13 @@ public class Principal {
         System.out.println("Edad: " + persona.getEdad() );
         System.out.println("Peso: " + persona.getPeso() );
         System.out.println("Estatura: " + persona.getEstatura() );
+
+
+        Persona princesa = new Persona("Clarie Antunez", 22, 60, 1.70f);
+        System.out.println("Nombre: " + princesa.getNombre() );
+        System.out.println("Edad: " + princesa.getEdad() );
+        System.out.println("Peso: " + princesa.getPeso() );
+        System.out.println("Estatura: " + princesa.getEstatura() );
+
     }
 }
