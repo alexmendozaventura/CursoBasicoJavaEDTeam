@@ -145,6 +145,8 @@ Puede almacenar tipo de datos primitivos o referencias Objetos.
 
 * Los indices comienzan con cero
 
+### Clases
+
 
 
 ### Notas:
