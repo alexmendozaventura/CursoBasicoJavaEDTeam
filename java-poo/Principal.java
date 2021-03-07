@@ -28,6 +28,10 @@ public class Principal {
         System.out.println("Edad: " + princesa.getEdad() );
         System.out.println("Peso: " + princesa.getPeso() );
         System.out.println("Estatura: " + princesa.getEstatura() );
+        princesa.saludar();
 
+
+        Persona personita = new Persona("Princesa");
+        
     }
 }

@@ -21,7 +21,10 @@ public class Persona {
         this.peso = peso;
         this.estatura = estatura;
     }
-
+    public Persona(String nombre){
+        this.nombre = nombre;
+        saludar();
+    }
     public String getNombre() {
         return nombre;
     }
@@ -59,5 +62,8 @@ public class Persona {
 
     public void setEstatura(float estatura) {
         this.estatura = estatura;
+    }
+    void saludar(){
+        System.out.println("Mi nombre es " + this.nombre);
     }
 }
