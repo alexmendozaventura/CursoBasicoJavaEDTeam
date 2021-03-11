@@ -145,9 +145,56 @@ Puede almacenar tipo de datos primitivos o referencias Objetos.
 
 * Los indices comienzan con cero
 
-### Clases
+### POO
 
+Los pilares de programación Orientada a objetos
 
+* Abstracción
+* Encapsulamiento
+* Herencia
+* Polimorfismo
+
+### Clase
+
+Agrupación de objetos con caracteristicas y comportamientos principales.
+
+### Objeto 
+
+(Instancia de una clase)
+
+### Getters and Setters
+
+(Encapsulamiento)
+
+Paquetes
+
+```
+dominio.
+ed.team
+golan.es.com
+
+comienza de derecha a izquierda
+team.ed.staff
+```
+
+Modificadores
+
+* **public**: Puede ser accedido desde cualquier lugar.
+
+* **private**: Puede ser accedido solo desde su propia clase.
+
+* **default**: Puede ser accedido desde su clase, las clases que están en el mismo paquete y las clases que hereden el mismo paquete.
+
+* **protected**: Puede ser accedido desde su clase, las clases que están en el mismo paquete y desde las clases que hereden asi esten en otras clases.
+
+  | Modificador     | Clase | Paquete | Subclase(Mismo paquete) | Subclase(Diferente paquete) | Mundo |
+  | --------------- | ----- | ------- | ----------------------- | --------------------------- | ----- |
+  | public          | Si    | Si      | Si                      | Si                          | Si    |
+  | private         | Si    | No      | No                      | No                          | No    |
+  | sin modificador | Si    | Si      | Si                      | No                          | No    |
+  | protected       | Si    | Si      | Si                      | Si                          | No    |
+
+  
 
 ### Notas:
 

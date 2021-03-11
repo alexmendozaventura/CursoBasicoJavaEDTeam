@@ -32,6 +32,6 @@ public class Principal {
 
 
         Persona personita = new Persona("Princesa");
-        
+
     }
 }
